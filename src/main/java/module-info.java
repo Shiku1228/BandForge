@@ -2,6 +2,7 @@ module com.example.bandforge {
 
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.web;
 
     opens com.bandforge to javafx.fxml;
     opens com.bandforge.controller to javafx.fxml;
